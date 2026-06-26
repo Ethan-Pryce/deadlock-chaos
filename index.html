@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deadlock Chaos — Random Loadout Roller</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="bg-grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <h1 class="title"><span class="title-dead">DEADLOCK</span> <span class="title-chaos">CHAOS</span></h1>
+    <p class="subtitle">Roll a random challenge: 3 heroes, a set of items &amp; side quests. Pick one hero and build toward your items.</p>
+
+    <div class="options">
+      <fieldset class="opt opt-mode">
+        <legend>Mode</legend>
+        <label class="opt-radio">
+          <input type="radio" name="mode" value="1" checked />
+          <span><strong>Locked Loadout</strong><small>2 items per tier — fixed</small></span>
+        </label>
+        <label class="opt-radio">
+          <input type="radio" name="mode" value="2" />
+          <span><strong>Pick Your Build</strong><small>choose 2 of 3 per tier</small></span>
+        </label>
+        <label class="opt-radio">
+          <input type="radio" name="mode" value="3" />
+          <span><strong>Bundles</strong><small>3 items from 2 themed sets</small></span>
+        </label>
+      </fieldset>
+
+      <div class="opt opt-sq">
+        <label for="sqCount">Side quests</label>
+        <input id="sqCount" type="number" min="1" max="5" step="1" value="1" />
+      </div>
+    </div>
+
+    <details id="heroPool" class="hero-pool">
+      <summary class="pool-summary">
+        Hero pool — <span id="poolCount">…</span> / <span id="poolTotal">…</span> heroes
+      </summary>
+      <div class="pool-actions">
+        <button id="poolAll" type="button" class="pool-btn">Select all</button>
+        <button id="poolNone" type="button" class="pool-btn">Clear</button>
+        <span id="poolHint" class="pool-hint"></span>
+      </div>
+      <div id="poolGrid" class="pool-grid"></div>
+    </details>
+
+    <button id="rollBtn" class="roll-btn" type="button">
+      <span class="roll-btn-label">ROLL THE CHAOS</span>
+    </button>
+    <p id="status" class="status" role="status" aria-live="polite">Loading game data…</p>
+  </header>
+
+  <section class="rules">
+    <h2 class="rules-title">The Rules</h2>
+    <ol class="rules-list">
+      <li><strong>Queue all three heroes.</strong> You must play (queue) these three heroes.</li>
+      <li><strong>Rolled items come first in their tier.</strong> You must buy each of your
+        rolled items before any other (non-rolled) item of the <em>same tier</em>. A set's
+        items may have different tiers and costs — that's fine, the rule is per tier.</li>
+      <li><strong>Max your rolled ability first.</strong> Only level your other abilities to
+        below the level of your selected <em>Max first</em> ability.</li>
+      <li><strong>Complete the side quest(s).</strong> Tick each one off as you finish it.</li>
+    </ol>
+  </section>
+
+  <main id="result" class="result" hidden>
+    <!-- Heroes -->
+    <section class="block heroes-block">
+      <h2 class="block-title">Pick One Hero</h2>
+      <div id="heroes" class="heroes-row"></div>
+    </section>
+
+    <!-- Items -->
+    <section class="block items-block">
+      <h2 class="block-title">Your Item Goals</h2>
+      <p id="itemsNote" class="items-note"></p>
+      <div id="itemsGroups" class="items-groups"></div>
+    </section>
+
+    <!-- Side quests -->
+    <section class="block sidequest-block">
+      <h2 class="block-title">Side Quests</h2>
+      <div id="sidequest" class="sidequest-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Item icons &amp; data courtesy of the <a href="https://deadlock.wiki" target="_blank" rel="noopener">Deadlock Wiki</a> — go give them some love. Not affiliated with Valve.</span>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

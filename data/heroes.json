@@ -1,0 +1,1066 @@
+[
+  {
+    "id": 6,
+    "name": "Abrams",
+    "icon": "assets/heroes/6.webp",
+    "background": "assets/heroes/6-bg.webp",
+    "abilities": [
+      {
+        "name": "Siphon Life",
+        "image": "assets/abilities/bull_drain.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Shoulder Charge",
+        "image": "assets/abilities/bull_charge.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Infernal Resilience",
+        "image": "assets/abilities/bull_beef.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Seismic Impact",
+        "image": "assets/abilities/bull_jump.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Apollo",
+    "icon": "assets/heroes/77.webp",
+    "background": "assets/heroes/77-bg.webp",
+    "abilities": [
+      {
+        "name": "Disengaging Sigil",
+        "image": "assets/abilities/fencer_sigil.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Riposte",
+        "image": "assets/abilities/fencer_riposte.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Flawless Advance",
+        "image": "assets/abilities/fencer_lungingstab.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Itani Lo Sahn",
+        "image": "assets/abilities/fencer_ult.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Bebop",
+    "icon": "assets/heroes/15.webp",
+    "background": "assets/heroes/15-bg.webp",
+    "abilities": [
+      {
+        "name": "Exploding Uppercut",
+        "image": "assets/abilities/bebop_uppercut.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Sticky Bomb",
+        "image": "assets/abilities/bebop_sticky_bomb.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Grapple Arm",
+        "image": "assets/abilities/bebop_hook.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Hyper Beam",
+        "image": "assets/abilities/bebop_hyper_beam.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Billy",
+    "icon": "assets/heroes/72.webp",
+    "background": "assets/heroes/72-bg.webp",
+    "abilities": [
+      {
+        "name": "Bashdown",
+        "image": "assets/abilities/goat_sigilslam.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rising Ram",
+        "image": "assets/abilities/goat_risingram.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Blasted",
+        "image": "assets/abilities/goat_blasted.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Chain Gang",
+        "image": "assets/abilities/goat_chaingang.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Calico",
+    "icon": "assets/heroes/16.webp",
+    "background": "assets/heroes/16-bg.webp",
+    "abilities": [
+      {
+        "name": "Gloom Bombs",
+        "image": "assets/abilities/nano_clustergrenade.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Leaping Slash",
+        "image": "assets/abilities/nano_dash.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Ava",
+        "image": "assets/abilities/nano_catform.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Return to Shadows",
+        "image": "assets/abilities/nano_shadow_pulse.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Celeste",
+    "icon": "assets/heroes/81.webp",
+    "background": "assets/heroes/81-bg.webp",
+    "abilities": [
+      {
+        "name": "Light Eater",
+        "image": "assets/abilities/unicorn_flare.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Dazzling Trick",
+        "image": "assets/abilities/unicorn_shield.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Radiant Daggers",
+        "image": "assets/abilities/unicorn_luminousflux.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Shining Wonder",
+        "image": "assets/abilities/unicorn_orb.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Drifter",
+    "icon": "assets/heroes/64.webp",
+    "background": "assets/heroes/64-bg.webp",
+    "abilities": [
+      {
+        "name": "Rend",
+        "image": "assets/abilities/drifter_claw.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Stalker's Mark",
+        "image": "assets/abilities/drifter_stalkersmark.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Bloodscent",
+        "image": "assets/abilities/drifter_thehunger.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Eternal Night",
+        "image": "assets/abilities/darkness.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Dynamo",
+    "icon": "assets/heroes/11.webp",
+    "background": "assets/heroes/11-bg.webp",
+    "abilities": [
+      {
+        "name": "Kinetic Pulse",
+        "image": "assets/abilities/sumo_stomp.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Quantum Entanglement",
+        "image": "assets/abilities/sumo_quantum.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rejuvenating Aurora",
+        "image": "assets/abilities/sumo_pork_bun.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Singularity",
+        "image": "assets/abilities/sumo_vacuum.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Graves",
+    "icon": "assets/heroes/76.webp",
+    "background": "assets/heroes/76-bg.webp",
+    "abilities": [
+      {
+        "name": "Jar of Dead",
+        "image": "assets/abilities/necro_skull.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Grasping Hands",
+        "image": "assets/abilities/necro_hands.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Essence Theft",
+        "image": "assets/abilities/necro_siphon.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Borrowed Decree",
+        "image": "assets/abilities/necro_gravestone.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Grey Talon",
+    "icon": "assets/heroes/17.webp",
+    "background": "assets/heroes/17-bg.webp",
+    "abilities": [
+      {
+        "name": "Charged Shot",
+        "image": "assets/abilities/archer_charged_shot.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rain of Arrows",
+        "image": "assets/abilities/archer_power_jump.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Spirit Snare",
+        "image": "assets/abilities/imobolize_trap.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Guided Owl",
+        "image": "assets/abilities/archer_guided_arrow.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Haze",
+    "icon": "assets/heroes/13.webp",
+    "background": "assets/heroes/13-bg.webp",
+    "abilities": [
+      {
+        "name": "Sleep Dagger",
+        "image": "assets/abilities/haze_sleep_dagger.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Smoke Bomb",
+        "image": "assets/abilities/haze_smoke_bomb.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Fixation",
+        "image": "assets/abilities/haze_fixation.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Bullet Dance",
+        "image": "assets/abilities/haze_bullet_flurry.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Holliday",
+    "icon": "assets/heroes/14.webp",
+    "background": "assets/heroes/14-bg.webp",
+    "abilities": [
+      {
+        "name": "Powder Keg",
+        "image": "assets/abilities/holliday_powder_keg.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Bounce Pad",
+        "image": "assets/abilities/holliday_bounce_pad.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Crackshot",
+        "image": "assets/abilities/holliday_crackshot.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Spirit Lasso",
+        "image": "assets/abilities/holliday_spirit_lasso.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Infernus",
+    "icon": "assets/heroes/1.webp",
+    "background": "assets/heroes/1-bg.webp",
+    "abilities": [
+      {
+        "name": "Napalm",
+        "image": "assets/abilities/inferno_molotov.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Flame Dash",
+        "image": "assets/abilities/inferno_dash.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Afterburn",
+        "image": "assets/abilities/inferno_deflect.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Concussive Combustion",
+        "image": "assets/abilities/inferno_bomb.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ivy",
+    "icon": "assets/heroes/20.webp",
+    "background": "assets/heroes/20-bg.webp",
+    "abilities": [
+      {
+        "name": "Entangling Thorns",
+        "image": "assets/abilities/tengu_storm_flask.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Kudzu Connection",
+        "image": "assets/abilities/tengu_tether.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Stone Form",
+        "image": "assets/abilities/tengu_stone_form.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Air Drop",
+        "image": "assets/abilities/tengu_lightning_crash.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Kelvin",
+    "icon": "assets/heroes/12.webp",
+    "background": "assets/heroes/12-bg.webp",
+    "abilities": [
+      {
+        "name": "Frost Grenade",
+        "image": "assets/abilities/freezing_grenade.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Ice Path",
+        "image": "assets/abilities/ice_path.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Arctic Beam",
+        "image": "assets/abilities/ice_beam.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Frozen Shelter",
+        "image": "assets/abilities/frozen_shelter.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Lady Geist",
+    "icon": "assets/heroes/4.webp",
+    "background": "assets/heroes/4-bg.webp",
+    "abilities": [
+      {
+        "name": "Essence Bomb",
+        "image": "assets/abilities/blood_bomb.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Life Drain",
+        "image": "assets/abilities/life_drain.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Malice",
+        "image": "assets/abilities/geist_dagger.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Soul Exchange",
+        "image": "assets/abilities/blood_exchange.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Lash",
+    "icon": "assets/heroes/31.webp",
+    "background": "assets/heroes/31-bg.webp",
+    "abilities": [
+      {
+        "name": "Ground Strike",
+        "image": "assets/abilities/lash_death_slam.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Grapple",
+        "image": "assets/abilities/lash_lash.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Flog",
+        "image": "assets/abilities/lash_flog.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Death Slam",
+        "image": "assets/abilities/lash_counter_lash.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "McGinnis",
+    "icon": "assets/heroes/8.webp",
+    "background": "assets/heroes/8-bg.webp",
+    "abilities": [
+      {
+        "name": "Mini Turret",
+        "image": "assets/abilities/engineer_turret.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Medicinal Specter",
+        "image": "assets/abilities/engineer_resupply.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Spectral Wall",
+        "image": "assets/abilities/engineer_fissure_2.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Heavy Barrage",
+        "image": "assets/abilities/engineer_rockets.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Mina",
+    "icon": "assets/heroes/63.webp",
+    "background": "assets/heroes/63-bg.webp",
+    "abilities": [
+      {
+        "name": "Rake",
+        "image": "assets/abilities/vampirebat_rake.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Sanguine Retreat",
+        "image": "assets/abilities/vampirebat_sanguine_retreat.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Love Bites",
+        "image": "assets/abilities/vampirebat_love_bites.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Nox Nostra",
+        "image": "assets/abilities/vampirebat_nox_nostra.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Mirage",
+    "icon": "assets/heroes/52.webp",
+    "background": "assets/heroes/52-bg.webp",
+    "abilities": [
+      {
+        "name": "Fire Scarabs",
+        "image": "assets/abilities/mirage_fire_beetles.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Dust Devil",
+        "image": "assets/abilities/mirage_tornado.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Djinn's Mark",
+        "image": "assets/abilities/mirage_sand_phantom.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Traveler",
+        "image": "assets/abilities/mirage_teleport.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mo & Krill",
+    "icon": "assets/heroes/18.webp",
+    "background": "assets/heroes/18-bg.webp",
+    "abilities": [
+      {
+        "name": "Scorn",
+        "image": "assets/abilities/grappler_regen.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Burrow",
+        "image": "assets/abilities/grappler_spin.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Sand Blast",
+        "image": "assets/abilities/grappler_throw_sand.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Combo",
+        "image": "assets/abilities/grappler_combo.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Paige",
+    "icon": "assets/heroes/67.webp",
+    "background": "assets/heroes/67-bg.webp",
+    "abilities": [
+      {
+        "name": "Bookwyrm",
+        "image": "assets/abilities/bookworm_dragon.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Plot Armor",
+        "image": "assets/abilities/bookworm_defendandfight.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Captivating Read",
+        "image": "assets/abilities/bookworm_blindinglight.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rallying Charge",
+        "image": "assets/abilities/bookworm_charge.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Paradox",
+    "icon": "assets/heroes/10.webp",
+    "background": "assets/heroes/10-bg.webp",
+    "abilities": [
+      {
+        "name": "Pulse Grenade",
+        "image": "assets/abilities/chrono_time_bomb.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Time Wall",
+        "image": "assets/abilities/chrono_time_wall.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Kinetic Carbine",
+        "image": "assets/abilities/duo_attack.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Paradoxical Swap",
+        "image": "assets/abilities/chrono_swap.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Pocket",
+    "icon": "assets/heroes/50.webp",
+    "background": "assets/heroes/50-bg.webp",
+    "abilities": [
+      {
+        "name": "Barrage",
+        "image": "assets/abilities/synth_barrage.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Flying Cloak",
+        "image": "assets/abilities/synth_plasma_flux.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Enchanter's Satchel",
+        "image": "assets/abilities/synth_pulse.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Affliction",
+        "image": "assets/abilities/synth_affliction.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Rem",
+    "icon": "assets/heroes/79.webp",
+    "background": "assets/heroes/79-bg.webp",
+    "abilities": [
+      {
+        "name": "Pillow Toss",
+        "image": "assets/abilities/familiar_pillow.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Tag Along",
+        "image": "assets/abilities/familiar_tag_along.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Lil Helpers",
+        "image": "assets/abilities/familiar_helpers.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Naptime",
+        "image": "assets/abilities/familiar_sleep.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Seven",
+    "icon": "assets/heroes/2.webp",
+    "background": "assets/heroes/2-bg.webp",
+    "abilities": [
+      {
+        "name": "Lightning Ball",
+        "image": "assets/abilities/giga_ball.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Static Charge",
+        "image": "assets/abilities/giga_static.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Power Surge",
+        "image": "assets/abilities/giga_chain.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Storm Cloud",
+        "image": "assets/abilities/giga_storm.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Shiv",
+    "icon": "assets/heroes/19.webp",
+    "background": "assets/heroes/19-bg.webp",
+    "abilities": [
+      {
+        "name": "Serrated Knives",
+        "image": "assets/abilities/shiv_toss.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Slice and Dice",
+        "image": "assets/abilities/shiv_flash.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Bloodletting",
+        "image": "assets/abilities/shiv_bloodletting.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Killing Blow",
+        "image": "assets/abilities/shiv_killing_blow.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Silver",
+    "icon": "assets/heroes/80.webp",
+    "background": "assets/heroes/80-bg.webp",
+    "abilities": [
+      {
+        "name": "Slam Fire",
+        "image": "assets/abilities/werewolf_slamfire.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Boot Kick",
+        "image": "assets/abilities/werewolf_jumpback.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Entangling Bola",
+        "image": "assets/abilities/werewolf_bola.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Lycan Curse",
+        "image": "assets/abilities/werewolf_lycancurse.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Sinclair",
+    "icon": "assets/heroes/60.webp",
+    "background": "assets/heroes/60-bg.webp",
+    "abilities": [
+      {
+        "name": "Vexing Bolt",
+        "image": "assets/abilities/magician_magicbolt.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Spectral Assistant",
+        "image": "assets/abilities/magician_cloneturret.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rabbit Hex",
+        "image": "assets/abilities/magician_animalcurse.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Audience Participation",
+        "image": "assets/abilities/magician_copyult.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "The Doorman",
+    "icon": "assets/heroes/69.webp",
+    "background": "assets/heroes/69-bg.webp",
+    "abilities": [
+      {
+        "name": "Call Bell",
+        "image": "assets/abilities/doorman_bell.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Doorway",
+        "image": "assets/abilities/doorman_doorway.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Luggage Cart",
+        "image": "assets/abilities/doorman_luggagetrolley.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Hotel Guest",
+        "image": "assets/abilities/doorman_elevator.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Venator",
+    "icon": "assets/heroes/65.webp",
+    "background": "assets/heroes/65-bg.webp",
+    "abilities": [
+      {
+        "name": "Consecrating Grenade",
+        "image": "assets/abilities/priest_grenade.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Gutshot",
+        "image": "assets/abilities/priest_shotgun.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Hex-Lined Snap Trap",
+        "image": "assets/abilities/priest_trap.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Ira Domini",
+        "image": "assets/abilities/priest_crossbow.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Victor",
+    "icon": "assets/heroes/66.webp",
+    "background": "assets/heroes/66-bg.webp",
+    "abilities": [
+      {
+        "name": "Pain Battery",
+        "image": "assets/abilities/frank_pain_battery.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Jumpstart",
+        "image": "assets/abilities/frank_jump_start.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Aura of Suffering",
+        "image": "assets/abilities/frank_aura_of_suffering.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Shocking Reanimation",
+        "image": "assets/abilities/frank_shocking_reanimation.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vindicta",
+    "icon": "assets/heroes/3.webp",
+    "background": "assets/heroes/3-bg.webp",
+    "abilities": [
+      {
+        "name": "Stake",
+        "image": "assets/abilities/vindicta_stake.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Flight",
+        "image": "assets/abilities/vindicta_flight.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Crow Familiar",
+        "image": "assets/abilities/hornet_crow.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Assassinate",
+        "image": "assets/abilities/hornet_assassinate.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Viscous",
+    "icon": "assets/heroes/35.webp",
+    "background": "assets/heroes/35-bg.webp",
+    "abilities": [
+      {
+        "name": "Splatter",
+        "image": "assets/abilities/viscous_goo_ball.webp",
+        "ultimate": false
+      },
+      {
+        "name": "The Cube",
+        "image": "assets/abilities/viscous_restorative_goo.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Puddle Punch",
+        "image": "assets/abilities/viscous_goo_punch.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Goo Ball",
+        "image": "assets/abilities/viscous_goo_sphere.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Vyper",
+    "icon": "assets/heroes/58.webp",
+    "background": "assets/heroes/58-bg.webp",
+    "abilities": [
+      {
+        "name": "Screwjab Dagger",
+        "image": "assets/abilities/viper_debuffdagger.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Lethal Venom",
+        "image": "assets/abilities/viper_venom.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Slither",
+        "image": "assets/abilities/viper_snakedash.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Petrifying Bola",
+        "image": "assets/abilities/viper_petrifybola.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Warden",
+    "icon": "assets/heroes/25.webp",
+    "background": "assets/heroes/25-bg.webp",
+    "abilities": [
+      {
+        "name": "Alchemical Flask",
+        "image": "assets/abilities/warden_crowd_control.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Willpower",
+        "image": "assets/abilities/warden_high_alert.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Binding Word",
+        "image": "assets/abilities/warden_lock_down.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Last Stand",
+        "image": "assets/abilities/warden_riot_protocol.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Wraith",
+    "icon": "assets/heroes/7.webp",
+    "background": "assets/heroes/7-bg.webp",
+    "abilities": [
+      {
+        "name": "Card Trick",
+        "image": "assets/abilities/wraith_card_trick.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Project Mind",
+        "image": "assets/abilities/wraith_teleport.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Full Auto",
+        "image": "assets/abilities/wraith_aura.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Telekinesis",
+        "image": "assets/abilities/wraith_lift.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Yamato",
+    "icon": "assets/heroes/27.webp",
+    "background": "assets/heroes/27-bg.webp",
+    "abilities": [
+      {
+        "name": "Power Slash",
+        "image": "assets/abilities/yamato_power_slash.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Flying Slash",
+        "image": "assets/abilities/yamato_flying_strike.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Crimson Slash",
+        "image": "assets/abilities/yamato_crimson_slash.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Shadow Transformation",
+        "image": "assets/abilities/yamato_blinding_steel.webp",
+        "ultimate": true
+      }
+    ]
+  }
+]

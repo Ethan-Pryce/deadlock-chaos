@@ -1,0 +1,1816 @@
+[
+  {
+    "id": 1342610602,
+    "name": "Close Quarters",
+    "tier": 1,
+    "cost": 800,
+    "slot": "weapon",
+    "image": "assets/items/1342610602.webp",
+    "themes": [
+      "Gun Damage"
+    ]
+  },
+  {
+    "id": 1548066885,
+    "name": "Extended Magazine",
+    "tier": 1,
+    "cost": 800,
+    "slot": "weapon",
+    "image": "assets/items/1548066885.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 3776945997,
+    "name": "Extra Charge",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/3776945997.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 3633614685,
+    "name": "Extra Health",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/3633614685.webp",
+    "themes": [
+      "Health & Regen"
+    ]
+  },
+  {
+    "id": 2829638276,
+    "name": "Extra Regen",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/2829638276.webp",
+    "themes": [
+      "Health & Regen"
+    ]
+  },
+  {
+    "id": 968099481,
+    "name": "Extra Spirit",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/968099481.webp",
+    "themes": [
+      "Spirit Power"
+    ]
+  },
+  {
+    "id": 4139877411,
+    "name": "Extra Stamina",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/4139877411.webp",
+    "themes": [
+      "Movement"
+    ]
+  },
+  {
+    "id": 2462046703,
+    "name": "Golden Goose Egg",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/2462046703.webp",
+    "themes": [
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 1672893796,
+    "name": "Grit",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/1672893796.webp",
+    "themes": [
+      "Barriers & Shields"
+    ]
+  },
+  {
+    "id": 2010028405,
+    "name": "Headshot Booster",
+    "tier": 1,
+    "cost": 800,
+    "slot": "weapon",
+    "image": "assets/items/2010028405.webp",
+    "themes": [
+      "Headshots"
+    ]
+  },
+  {
+    "id": 1710079648,
+    "name": "Healing Rite",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/1710079648.webp",
+    "themes": [
+      "Movement",
+      "Health & Regen"
+    ]
+  },
+  {
+    "id": 3077079169,
+    "name": "High-Velocity Rounds",
+    "tier": 1,
+    "cost": 800,
+    "slot": "weapon",
+    "image": "assets/items/3077079169.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 1437614329,
+    "name": "Melee Lifesteal",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/1437614329.webp",
+    "themes": [
+      "Melee",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 1009965641,
+    "name": "Monster Rounds",
+    "tier": 1,
+    "cost": 800,
+    "slot": "weapon",
+    "image": "assets/items/1009965641.webp",
+    "themes": [
+      "Gun Damage",
+      "Bullet Resist"
+    ]
+  },
+  {
+    "id": 1998374645,
+    "name": "Mystic Burst",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/1998374645.webp",
+    "themes": []
+  },
+  {
+    "id": 754480263,
+    "name": "Mystic Expansion",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/754480263.webp",
+    "themes": [
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 1439347412,
+    "name": "Mystic Regeneration",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/1439347412.webp",
+    "themes": [
+      "Health & Regen"
+    ]
+  },
+  {
+    "id": 668299740,
+    "name": "Rapid Rounds",
+    "tier": 1,
+    "cost": 800,
+    "slot": "weapon",
+    "image": "assets/items/668299740.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 4204808176,
+    "name": "Rebuttal",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/4204808176.webp",
+    "themes": [
+      "Gun Damage",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 3862866912,
+    "name": "Restorative Shot",
+    "tier": 1,
+    "cost": 800,
+    "slot": "weapon",
+    "image": "assets/items/3862866912.webp",
+    "themes": [
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 2922054143,
+    "name": "Rusted Barrel",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/2922054143.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Resist Shred",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 465043967,
+    "name": "Spirit Strike",
+    "tier": 1,
+    "cost": 800,
+    "slot": "spirit",
+    "image": "assets/items/465043967.webp",
+    "themes": [
+      "Spirit Power",
+      "Resist Shred"
+    ]
+  },
+  {
+    "id": 3399065363,
+    "name": "Sprint Boots",
+    "tier": 1,
+    "cost": 800,
+    "slot": "vitality",
+    "image": "assets/items/3399065363.webp",
+    "themes": [
+      "Movement"
+    ]
+  },
+  {
+    "id": 381961617,
+    "name": "Active Reload",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/381961617.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Movement",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 1150006784,
+    "name": "Arcane Surge",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/1150006784.webp",
+    "themes": [
+      "Spirit Power",
+      "Cooldowns & Charges",
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 1235347618,
+    "name": "Battle Vest",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/1235347618.webp",
+    "themes": [
+      "Gun Damage",
+      "Fire Rate & Ammo",
+      "Bullet Resist"
+    ]
+  },
+  {
+    "id": 499683006,
+    "name": "Bullet Lifesteal",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/499683006.webp",
+    "themes": [
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 2971868509,
+    "name": "Bullet Resist Shredder",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/2971868509.webp",
+    "themes": [
+      "Resist Shred"
+    ]
+  },
+  {
+    "id": 1976391348,
+    "name": "Cold Front",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/1976391348.webp",
+    "themes": [
+      "Slows, Stuns & Disables",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 380806748,
+    "name": "Compress Cooldown",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/380806748.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 1047818222,
+    "name": "Debuff Reducer",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/1047818222.webp",
+    "themes": []
+  },
+  {
+    "id": 2951612397,
+    "name": "Duration Extender",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/2951612397.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 3970837787,
+    "name": "Enchanter's Emblem",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/3970837787.webp",
+    "themes": [
+      "Spirit Power",
+      "Spirit Resist",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 2447176615,
+    "name": "Enduring Speed",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/2447176615.webp",
+    "themes": [
+      "Movement"
+    ]
+  },
+  {
+    "id": 3403085434,
+    "name": "Fleetfoot",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/3403085434.webp",
+    "themes": [
+      "Movement"
+    ]
+  },
+  {
+    "id": 857669956,
+    "name": "Guardian Ward",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/857669956.webp",
+    "themes": [
+      "Movement",
+      "Barriers & Shields",
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 2603935618,
+    "name": "Healbane",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/2603935618.webp",
+    "themes": [
+      "Spirit Power",
+      "Lifesteal & Healing",
+      "Anti-Heal"
+    ]
+  },
+  {
+    "id": 2566692615,
+    "name": "Healing Booster",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/2566692615.webp",
+    "themes": [
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 7409189,
+    "name": "Improved Spirit",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/7409189.webp",
+    "themes": [
+      "Spirit Power"
+    ]
+  },
+  {
+    "id": 2407033488,
+    "name": "Intensifying Magazine",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/2407033488.webp",
+    "themes": [
+      "Gun Damage"
+    ]
+  },
+  {
+    "id": 3977876567,
+    "name": "Kinetic Dash",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/3977876567.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 3331811235,
+    "name": "Long Range",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/3331811235.webp",
+    "themes": [
+      "Gun Damage"
+    ]
+  },
+  {
+    "id": 26002154,
+    "name": "Melee Charge",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/26002154.webp",
+    "themes": [
+      "Melee"
+    ]
+  },
+  {
+    "id": 395867183,
+    "name": "Mystic Shot",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/395867183.webp",
+    "themes": [
+      "Spirit Power",
+      "Spirit-Scaling Guns",
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 1102081447,
+    "name": "Mystic Slow",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/1102081447.webp",
+    "themes": [
+      "Movement",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 2081037738,
+    "name": "Mystic Vulnerability",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/2081037738.webp",
+    "themes": [
+      "Resist Shred"
+    ]
+  },
+  {
+    "id": 2064029594,
+    "name": "Opening Rounds",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/2064029594.webp",
+    "themes": [
+      "Gun Damage",
+      "Spirit-Scaling Guns"
+    ]
+  },
+  {
+    "id": 84321454,
+    "name": "Quicksilver Reload",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/84321454.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 1644605047,
+    "name": "Reactive Barrier",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/1644605047.webp",
+    "themes": [
+      "Barriers & Shields"
+    ]
+  },
+  {
+    "id": 1763073141,
+    "name": "Recharging Rush",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/1763073141.webp",
+    "themes": [
+      "Barriers & Shields"
+    ]
+  },
+  {
+    "id": 2059712766,
+    "name": "Restorative Locket",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/2059712766.webp",
+    "themes": [
+      "Lifesteal & Healing",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 3361075077,
+    "name": "Return Fire",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/3361075077.webp",
+    "themes": [
+      "Spirit Power"
+    ]
+  },
+  {
+    "id": 393974127,
+    "name": "Slowing Bullets",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/393974127.webp",
+    "themes": [
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 1813726886,
+    "name": "Slowing Hex",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/1813726886.webp",
+    "themes": [
+      "Movement",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 876563814,
+    "name": "Spirit Lifesteal",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/876563814.webp",
+    "themes": [
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 1219329868,
+    "name": "Spirit Sap",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/1219329868.webp",
+    "themes": [
+      "Spirit Power",
+      "Resist Shred",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 112198670,
+    "name": "Spirit Shielding",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/112198670.webp",
+    "themes": [
+      "Barriers & Shields",
+      "Spirit Resist"
+    ]
+  },
+  {
+    "id": 1144549437,
+    "name": "Spirit Shredder Bullets",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/1144549437.webp",
+    "themes": [
+      "Resist Shred",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 3647584222,
+    "name": "Split Shot",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/3647584222.webp",
+    "themes": [
+      "Gun Damage",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 98582110,
+    "name": "Stalker",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/98582110.webp",
+    "themes": [
+      "Movement",
+      "Resist Shred"
+    ]
+  },
+  {
+    "id": 1925087134,
+    "name": "Suppressor",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "spirit",
+    "image": "assets/items/1925087134.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Slows, Stuns & Disables",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 4104549924,
+    "name": "Swift Striker",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/4104549924.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 2356412290,
+    "name": "Titanic Magazine",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/2356412290.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 3074274290,
+    "name": "Trophy Collector",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/3074274290.webp",
+    "themes": [
+      "Movement",
+      "Range & Reach",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 1770441818,
+    "name": "Weakening Headshot",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "weapon",
+    "image": "assets/items/1770441818.webp",
+    "themes": [
+      "Headshots",
+      "Resist Shred"
+    ]
+  },
+  {
+    "id": 805079544,
+    "name": "Weapon Shielding",
+    "tier": 2,
+    "cost": 1600,
+    "slot": "vitality",
+    "image": "assets/items/805079544.webp",
+    "themes": [
+      "Barriers & Shields",
+      "Bullet Resist"
+    ]
+  },
+  {
+    "id": 1932939246,
+    "name": "Alchemical Fire",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/1932939246.webp",
+    "themes": [
+      "Spirit-Scaling Guns",
+      "Resist Shred"
+    ]
+  },
+  {
+    "id": 3294954488,
+    "name": "Ballistic Enchantment",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/3294954488.webp",
+    "themes": [
+      "Gun Damage",
+      "Range & Reach",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 1414319208,
+    "name": "Berserker",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/1414319208.webp",
+    "themes": [
+      "Gun Damage",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 989206714,
+    "name": "Blood Tribute",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/989206714.webp",
+    "themes": []
+  },
+  {
+    "id": 3140772621,
+    "name": "Bullet Resilience",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/3140772621.webp",
+    "themes": [
+      "Bullet Resist"
+    ]
+  },
+  {
+    "id": 2739107182,
+    "name": "Burst Fire",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/2739107182.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Movement"
+    ]
+  },
+  {
+    "id": 1414025773,
+    "name": "Counterspell",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/1414025773.webp",
+    "themes": [
+      "Spirit Power",
+      "Movement",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 709540378,
+    "name": "Cultist Sacrifice",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/709540378.webp",
+    "themes": [
+      "Gun Damage",
+      "Health & Regen",
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 3144988365,
+    "name": "Decay",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/3144988365.webp",
+    "themes": [
+      "Anti-Heal",
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 2061878743,
+    "name": "Disarming Hex",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/2061878743.webp",
+    "themes": [
+      "Resist Shred",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 3731635960,
+    "name": "Dispel Magic",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/3731635960.webp",
+    "themes": [
+      "Spirit Resist",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 2463960640,
+    "name": "Escalating Resilience",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/2463960640.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 690458959,
+    "name": "Express Shot",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/690458959.webp",
+    "themes": [
+      "Gun Damage",
+      "Fire Rate & Ammo",
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 3585132399,
+    "name": "Fortitude",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/3585132399.webp",
+    "themes": [
+      "Movement",
+      "Health & Regen"
+    ]
+  },
+  {
+    "id": 1409190604,
+    "name": "Fury Trance",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/1409190604.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Spirit Resist"
+    ]
+  },
+  {
+    "id": 1193964439,
+    "name": "Greater Expansion",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/1193964439.webp",
+    "themes": [
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 4053935515,
+    "name": "Headhunter",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/4053935515.webp",
+    "themes": [
+      "Headshots",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 2956256701,
+    "name": "Healing Nova",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/2956256701.webp",
+    "themes": [
+      "Health & Regen"
+    ]
+  },
+  {
+    "id": 2108215830,
+    "name": "Heroic Aura",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/2108215830.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Movement",
+      "Bullet Resist"
+    ]
+  },
+  {
+    "id": 2678489038,
+    "name": "Hollow Point",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/2678489038.webp",
+    "themes": [
+      "Gun Damage",
+      "Resist Shred"
+    ]
+  },
+  {
+    "id": 2481177645,
+    "name": "Hunter's Aura",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/2481177645.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Resist Shred",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 1254091416,
+    "name": "Knockdown",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/1254091416.webp",
+    "themes": [
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 1252627263,
+    "name": "Lifestrike",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/1252627263.webp",
+    "themes": [
+      "Melee",
+      "Slows, Stuns & Disables",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 600033864,
+    "name": "Majestic Leap",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/600033864.webp",
+    "themes": [
+      "Barriers & Shields",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 1378931225,
+    "name": "Metal Skin",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/1378931225.webp",
+    "themes": []
+  },
+  {
+    "id": 2095565695,
+    "name": "Point Blank",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/2095565695.webp",
+    "themes": [
+      "Gun Damage",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 2947183272,
+    "name": "Radiant Regeneration",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/2947183272.webp",
+    "themes": [
+      "Movement",
+      "Health & Regen",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 787198704,
+    "name": "Rapid Recharge",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/787198704.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 1804594021,
+    "name": "Rescue Beam",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/1804594021.webp",
+    "themes": [
+      "Movement",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 1798666702,
+    "name": "Shadow Weave",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/1798666702.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Melee",
+      "Spirit Power",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 2152872419,
+    "name": "Sharpshooter",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/2152872419.webp",
+    "themes": [
+      "Gun Damage",
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 619484391,
+    "name": "Silence Wave",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/619484391.webp",
+    "themes": [
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 4075861416,
+    "name": "Spirit Rend",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/4075861416.webp",
+    "themes": [
+      "Resist Shred",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 2163598980,
+    "name": "Spirit Resilience",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/2163598980.webp",
+    "themes": [
+      "Spirit Resist"
+    ]
+  },
+  {
+    "id": 3190916303,
+    "name": "Spirit Snatch",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/3190916303.webp",
+    "themes": [
+      "Spirit Power",
+      "Spirit Resist"
+    ]
+  },
+  {
+    "id": 334300056,
+    "name": "Stamina Mastery",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/334300056.webp",
+    "themes": [
+      "Movement",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 3261353684,
+    "name": "Superior Cooldown",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/3261353684.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 2717651715,
+    "name": "Superior Duration",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/2717651715.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 1292979587,
+    "name": "Surge of Power",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/1292979587.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Spirit Power",
+      "Movement"
+    ]
+  },
+  {
+    "id": 2121044373,
+    "name": "Tankbuster",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/2121044373.webp",
+    "themes": []
+  },
+  {
+    "id": 811521119,
+    "name": "Tesla Bullets",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/811521119.webp",
+    "themes": [
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 395944548,
+    "name": "Torment Pulse",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "spirit",
+    "image": "assets/items/395944548.webp",
+    "themes": [
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 3696726732,
+    "name": "Toxic Bullets",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/3696726732.webp",
+    "themes": [
+      "Anti-Heal"
+    ]
+  },
+  {
+    "id": 865958998,
+    "name": "Veil Walker",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/865958998.webp",
+    "themes": [
+      "Movement",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 3270001687,
+    "name": "Warp Stone",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "vitality",
+    "image": "assets/items/3270001687.webp",
+    "themes": [
+      "Bullet Resist",
+      "Range & Reach"
+    ]
+  },
+  {
+    "id": 3791587546,
+    "name": "Weighted Shots",
+    "tier": 3,
+    "cost": 3200,
+    "slot": "weapon",
+    "image": "assets/items/3791587546.webp",
+    "themes": [
+      "Gun Damage",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 3812615317,
+    "name": "Arctic Blast",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/3812615317.webp",
+    "themes": [
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 673001892,
+    "name": "Armor Piercing Rounds",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/673001892.webp",
+    "themes": [
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 2519598785,
+    "name": "Boundless Spirit",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/2519598785.webp",
+    "themes": [
+      "Spirit Power"
+    ]
+  },
+  {
+    "id": 710436191,
+    "name": "Capacitor",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/710436191.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 3361811174,
+    "name": "Cheat Death",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/3361811174.webp",
+    "themes": [
+      "Barriers & Shields"
+    ]
+  },
+  {
+    "id": 2407781327,
+    "name": "Colossus",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/2407781327.webp",
+    "themes": [
+      "Melee",
+      "Health & Regen",
+      "Bullet Resist",
+      "Spirit Resist",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 3884003354,
+    "name": "Crippling Headshot",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/3884003354.webp",
+    "themes": [
+      "Resist Shred",
+      "Anti-Heal"
+    ]
+  },
+  {
+    "id": 800008313,
+    "name": "Crushing Fists",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/800008313.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Melee",
+      "Resist Shred",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 2617435668,
+    "name": "Cursed Relic",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/2617435668.webp",
+    "themes": [
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 1662311306,
+    "name": "Divine Barrier",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1662311306.webp",
+    "themes": [
+      "Movement",
+      "Barriers & Shields"
+    ]
+  },
+  {
+    "id": 2820116164,
+    "name": "Diviner's Kevlar",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/2820116164.webp",
+    "themes": [
+      "Spirit Power",
+      "Barriers & Shields"
+    ]
+  },
+  {
+    "id": 630839635,
+    "name": "Echo Shard",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/630839635.webp",
+    "themes": []
+  },
+  {
+    "id": 3005970438,
+    "name": "Escalating Exposure",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/3005970438.webp",
+    "themes": [
+      "Spirit Power",
+      "Stacking & Farming"
+    ]
+  },
+  {
+    "id": 2533252781,
+    "name": "Ethereal Shift",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/2533252781.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 2142980412,
+    "name": "Focus Lens",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/2142980412.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Spirit Power",
+      "Resist Shred",
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 339443430,
+    "name": "Frenzy",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/339443430.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Movement"
+    ]
+  },
+  {
+    "id": 365620721,
+    "name": "Glass Cannon",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/365620721.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 1427630806,
+    "name": "Healing Tempo",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1427630806.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Movement",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 951866250,
+    "name": "Indomitable",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/951866250.webp",
+    "themes": [
+      "Barriers & Shields",
+      "Bullet Resist",
+      "Spirit Resist"
+    ]
+  },
+  {
+    "id": 1797283378,
+    "name": "Infuser",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1797283378.webp",
+    "themes": [
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 2037039379,
+    "name": "Inhibitor",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/2037039379.webp",
+    "themes": [
+      "Anti-Heal"
+    ]
+  },
+  {
+    "id": 1250307611,
+    "name": "Juggernaut",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1250307611.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 865846625,
+    "name": "Leech",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/865846625.webp",
+    "themes": [
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 493591231,
+    "name": "Lightning Scroll",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/493591231.webp",
+    "themes": [
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 1396247347,
+    "name": "Lucky Shot",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/1396247347.webp",
+    "themes": [
+      "Gun Damage"
+    ]
+  },
+  {
+    "id": 2800629741,
+    "name": "Magic Carpet",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/2800629741.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 3919289022,
+    "name": "Mercurial Magnum",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/3919289022.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Spirit Power"
+    ]
+  },
+  {
+    "id": 3577481646,
+    "name": "Mystic Reverb",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/3577481646.webp",
+    "themes": [
+      "Spirit Power",
+      "Slows, Stuns & Disables",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 1371725689,
+    "name": "Phantom Strike",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1371725689.webp",
+    "themes": [
+      "Slows, Stuns & Disables",
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 3491236900,
+    "name": "Plated Armor",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/3491236900.webp",
+    "themes": [
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 677738769,
+    "name": "Refresher",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/677738769.webp",
+    "themes": []
+  },
+  {
+    "id": 2480592370,
+    "name": "Ricochet",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/2480592370.webp",
+    "themes": [
+      "Gun Damage",
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 2417568017,
+    "name": "Scourge",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/2417568017.webp",
+    "themes": [
+      "Spirit Resist"
+    ]
+  },
+  {
+    "id": 1113837674,
+    "name": "Silencer",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/1113837674.webp",
+    "themes": [
+      "Spirit Resist",
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 1282141666,
+    "name": "Siphon Bullets",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1282141666.webp",
+    "themes": [
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 1955841979,
+    "name": "Spellbreaker",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1955841979.webp",
+    "themes": [
+      "Spirit Power",
+      "Spirit Resist",
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 2221211450,
+    "name": "Spellslinger",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/2221211450.webp",
+    "themes": [
+      "Fire Rate & Ammo"
+    ]
+  },
+  {
+    "id": 343572757,
+    "name": "Spirit Burn",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/343572757.webp",
+    "themes": [
+      "Barriers & Shields",
+      "Proc & On-Hit"
+    ]
+  },
+  {
+    "id": 2226497419,
+    "name": "Spiritual Overflow",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "weapon",
+    "image": "assets/items/2226497419.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Spirit-Scaling Guns"
+    ]
+  },
+  {
+    "id": 915014646,
+    "name": "Transcendent Cooldown",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/915014646.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 3357231760,
+    "name": "Unstoppable",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/3357231760.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  },
+  {
+    "id": 1055679805,
+    "name": "Vampiric Burst",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/1055679805.webp",
+    "themes": [
+      "Fire Rate & Ammo",
+      "Lifesteal & Healing"
+    ]
+  },
+  {
+    "id": 1152158042,
+    "name": "Vortex Web",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "spirit",
+    "image": "assets/items/1152158042.webp",
+    "themes": [
+      "Slows, Stuns & Disables"
+    ]
+  },
+  {
+    "id": 3028234315,
+    "name": "Witchmail",
+    "tier": 4,
+    "cost": 6400,
+    "slot": "vitality",
+    "image": "assets/items/3028234315.webp",
+    "themes": [
+      "Cooldowns & Charges"
+    ]
+  }
+]
