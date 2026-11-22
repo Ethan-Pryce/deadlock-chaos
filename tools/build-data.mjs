@@ -168,7 +168,9 @@ async function buildHeroes() {
   const abilityByClass = new Map(abilities.map((a) => [a.class_name, a]));
 
   const heroes = raw
-    .filter((h) => h && h.disabled === false && h.in_development === false && h.name)
+    // Only `disabled` marks unreleased/placeholder heroes. `in_development` lags
+    // behind releases (e.g. Violet and Baba stayed flagged after launching).
+    .filter((h) => h && h.disabled === false && h.name)
     .map((h) => {
       // Resolve the four signature abilities (slot index 4 = ultimate).
       const abilities = SIGNATURE_SLOTS.map((slot, i) => {

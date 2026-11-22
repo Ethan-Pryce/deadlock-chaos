@@ -653,7 +653,7 @@
   },
   {
     "id": 1144549437,
-    "name": "Spirit Shredder Bullets",
+    "name": "Spirit Shredder",
     "tier": 2,
     "cost": 1600,
     "slot": "weapon",
@@ -936,6 +936,7 @@
     "image": "assets/items/1409190604.webp",
     "themes": [
       "Fire Rate & Ammo",
+      "Movement",
       "Spirit Resist"
     ]
   },
@@ -1112,8 +1113,6 @@
     "slot": "weapon",
     "image": "assets/items/1798666702.webp",
     "themes": [
-      "Fire Rate & Ammo",
-      "Melee",
       "Spirit Power",
       "Cooldowns & Charges"
     ]
@@ -1314,7 +1313,7 @@
   },
   {
     "id": 673001892,
-    "name": "Armor Piercing Rounds",
+    "name": "Armor Piercer",
     "tier": 4,
     "cost": 6400,
     "slot": "weapon",
@@ -1462,6 +1461,8 @@
     "slot": "spirit",
     "image": "assets/items/2533252781.webp",
     "themes": [
+      "Movement",
+      "Spirit Resist",
       "Cooldowns & Charges"
     ]
   },
@@ -1474,9 +1475,7 @@
     "image": "assets/items/2142980412.webp",
     "themes": [
       "Fire Rate & Ammo",
-      "Spirit Power",
-      "Resist Shred",
-      "Cooldowns & Charges"
+      "Slows, Stuns & Disables"
     ]
   },
   {
@@ -1754,7 +1753,8 @@
     "image": "assets/items/2226497419.webp",
     "themes": [
       "Fire Rate & Ammo",
-      "Spirit-Scaling Guns"
+      "Spirit-Scaling Guns",
+      "Lifesteal & Healing"
     ]
   },
   {

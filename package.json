@@ -1,0 +1,12 @@
+{
+  "name": "deadlock-chaos",
+  "private": true,
+  "type": "module",
+  "description": "Random challenge loadout roller for Deadlock, with a shared leaderboard (Vercel function + Vercel Blob).",
+  "scripts": {
+    "build-data": "node tools/build-data.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.9.0"
+  }
+}

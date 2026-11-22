@@ -26,7 +26,7 @@
         </label>
         <label class="opt-radio">
           <input type="radio" name="mode" value="3" />
-          <span><strong>Bundles</strong><small>3 items from 2 themed sets</small></span>
+          <span><strong>Bundles</strong><small>pick 1 of 3 themed 4-item sets</small></span>
         </label>
       </fieldset>
 
@@ -64,7 +64,10 @@
       <li><strong>Max your rolled ability first.</strong> Only level your other abilities to
         below the level of your selected <em>Max first</em> ability.</li>
       <li><strong>Complete the side quest(s).</strong> Tick each one off as you finish it.</li>
-      <li><strong>Chase a high score</strong> Your score is 1 for every hero you leave selected, 3 for every mandatory item you buy, +10 for every sidequest you complete, -5 for each sidequest you fail</li>
+      <li><strong>Chase a high score.</strong> Your score is +1 for every hero you leave selected in the
+        hero pool, +3 for every mandatory item you buy, +10 for every side quest you complete and −5 for
+        each side quest you fail. Side quests still unticked when you submit count as failed. Post your run
+        to the <a href="#leaderboard">leaderboard</a> after the match.</li>
     </ol>
   </section>
 
@@ -87,12 +90,76 @@
       <h2 class="block-title">Side Quests</h2>
       <div id="sidequest" class="sidequest-list"></div>
     </section>
+
+    <!-- Score card (filled in by js/leaderboard.js after each roll) -->
+    <section id="scoreCard" class="block score-block" hidden>
+      <h2 class="block-title">Finish &amp; Submit</h2>
+      <p class="items-note">After your match, fill this in and post your score to the leaderboard.</p>
+
+      <div class="score-grid">
+        <div class="score-field score-field-wide">
+          <span class="score-label">Hero you played</span>
+          <div id="scoreHeroes" class="score-heroes" role="radiogroup" aria-label="Hero you played"></div>
+        </div>
+
+        <div class="score-field score-field-wide">
+          <span class="score-label">Mandatory items bought <span id="scoreItemsCount" class="score-count"></span></span>
+          <div id="scoreItems" class="score-items"></div>
+        </div>
+
+        <div class="score-field">
+          <span class="score-label">Side quests</span>
+          <div id="scoreQuests" class="score-quests"></div>
+        </div>
+
+        <div class="score-field">
+          <span class="score-label">Result</span>
+          <div class="score-wl" role="radiogroup" aria-label="Match result">
+            <button id="scoreWin" type="button" class="wl-btn wl-win" role="radio" aria-checked="false">Win</button>
+            <button id="scoreLoss" type="button" class="wl-btn wl-loss" role="radio" aria-checked="false">Loss</button>
+          </div>
+        </div>
+
+        <div class="score-field">
+          <label for="scoreName" class="score-label">Your name</label>
+          <input id="scoreName" class="score-name" type="text" maxlength="24" autocomplete="nickname" placeholder="Name on the board" />
+        </div>
+      </div>
+
+      <div class="score-total">
+        <span id="scoreBreakdown" class="score-breakdown"></span>
+        <span class="score-total-value"><span class="score-total-label">Score</span> <strong id="scoreValue">0</strong></span>
+      </div>
+
+      <div class="score-actions">
+        <button id="scoreSubmit" type="button" class="roll-btn score-submit" disabled>
+          <span class="roll-btn-label">SUBMIT SCORE</span>
+        </button>
+        <p id="scoreStatus" class="status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
   </main>
+
+  <!-- Leaderboard (always visible) -->
+  <section id="leaderboard" class="board-wrap">
+    <div class="block leaderboard-block">
+      <h2 class="block-title">Leaderboard</h2>
+      <div id="lbTabs" class="lb-tabs" role="tablist" aria-label="Filter by mode">
+        <button type="button" class="lb-tab active" role="tab" aria-selected="true" data-mode="all">All</button>
+        <button type="button" class="lb-tab" role="tab" aria-selected="false" data-mode="1">Locked Loadout</button>
+        <button type="button" class="lb-tab" role="tab" aria-selected="false" data-mode="2">Pick Your Build</button>
+        <button type="button" class="lb-tab" role="tab" aria-selected="false" data-mode="3">Bundles</button>
+      </div>
+      <div id="lbBody" class="lb-body"></div>
+      <p id="lbStatus" class="status lb-status" role="status" aria-live="polite">Loading leaderboard…</p>
+    </div>
+  </section>
 
   <footer class="site-footer">
     <span>Item icons &amp; data courtesy of the <a href="https://deadlock.wiki" target="_blank" rel="noopener">Deadlock Wiki</a> — go give them some love. Not affiliated with Valve.</span>
   </footer>
 
   <script src="js/app.js"></script>
+  <script src="js/leaderboard.js"></script>
 </body>
 </html>

@@ -10,9 +10,9 @@ completing the quests.
 
 - **Mode 1 — Locked Loadout:** you get exactly 2 items per tier; build those.
 - **Mode 2 — Pick Your Build:** you get 3 items per tier and tick the 2 you want.
-- **Mode 3 — Bundles:** you get 3 items from each of 2 random *themed* sets
-  (e.g. "Melee", "Spirit-Scaling Guns") for 6 items total. Tier order does **not**
-  apply in this mode.
+- **Mode 3 — Bundles:** you're offered 3 random *themed* bundles (e.g. "Melee",
+  "Resist Shred"). Each has 4 items, one from each tier (T1–T4). Flip the
+  "Choose this bundle" switch on the one you want to build.
 - **Side quests:** choose how many to roll (1–5); tick each off as you finish it.
 - **Hero pool:** open the "Hero pool" panel to choose which heroes the random 3 are
   drawn from (anywhere from 3 up to the whole cast). The roll button is disabled until
@@ -33,6 +33,59 @@ npx serve .
 ```
 
 Then open the printed URL (e.g. http://localhost:3000).
+
+## Leaderboard
+
+After a match, fill in the **Finish & Submit** card under your roll:
+- the hero you played
+- which mandatory items you bought
+- side quests, read from the ticks in the Side Quests list (unticked ones count as failed)
+- Win / Loss
+- your name
+
+The page previews the score. The server recalculates it using the same rules:
++1 per hero in your pool, +3 per item bought, +10 per quest done, −5 per quest failed.
+Win/Loss is shown but doesn't affect the score.
+
+The board is shared online. A Vercel serverless function (`api/scores.js`) stores
+each run as its own small JSON file in a **private Vercel Blob store**
+(`deadlock-chaos-blob`) under `scores/`, and returns
+the whole board as one JSON list. Runs are only ever added as new files, so
+simultaneous submissions can't overwrite each other.
+
+**One-time setup (Vercel dashboard):**
+
+1. Open the Vercel project (`deadlock-chaos-nu96`) → **Storage** → **Create** → **Blob**.
+2. Connect the store to the project. This sets `BLOB_STORE_ID`, and `@vercel/blob`
+   signs in with the deployment's automatic OIDC token. Older stores set
+   `BLOB_READ_WRITE_TOKEN` instead; both work.
+3. Redeploy (or just push a commit).
+
+The function writes with `access: "private"` (the `ACCESS` constant in
+`api/scores.js`). If you ever switch to a public store, change that constant to match.
+
+**GitHub Pages:** the GitHub Pages copy works too. It calls the Vercel API
+(`LEADERBOARD_API` at the top of `js/leaderboard.js`).
+
+**Running locally with the leaderboard:** plain `npx serve` shows "Leaderboard
+unavailable" because it can't run the function. Use the Vercel CLI instead:
+
+```bash
+npm i -g vercel
+vercel link        # pick the deadlock-chaos-nu96 project
+vercel env pull    # writes BLOB_STORE_ID + a short-lived VERCEL_OIDC_TOKEN to .env.local
+vercel dev
+```
+
+`BLOB_STORE_ID` is only pulled if the store's connection includes the
+**Development** environment. Tick it under the project's Storage →
+deadlock-chaos-blob → connection settings. The local OIDC token expires after about 12 hours. Re-run `vercel env pull` if the
+leaderboard stops working locally.
+
+Note that `vercel dev` writes to the same Blob store as the live site.
+
+**Removing a score:** in the Vercel dashboard open the Blob store's file browser
+and delete the matching `scores/*.json` file.
 
 ## Refreshing the game data
 
@@ -66,7 +119,9 @@ re-download (e.g. after a visual update), delete the `assets/` folder first.
   "legendary" items are a limited mode and are excluded by `build-data.mjs`.)
 - **Bundle themes:** edit `THEME_DEFS` in `tools/build-data.mjs` and re-run it. Each
   theme tags items whose non-zero stat properties match its `keys` (optionally
-  restricted to a `slot`). The build logs each theme's item count.
+  restricted to a `slot`). The build logs each theme's item count. A theme only
+  shows up in Bundles mode if it has at least one item in every tier
+  (`BUNDLE_TIERS` in `js/app.js`); `BUNDLE_CHOICES` sets how many bundles are offered.
 
 ## Notes
 
@@ -83,6 +138,10 @@ re-download (e.g. after a visual update), delete the `assets/` folder first.
 index.html              # markup
 css/styles.css          # theme + layout + animations
 js/app.js               # data loading, roll logic, rendering
+js/leaderboard.js       # score card + leaderboard UI (talks to api/scores.js)
+api/scores.js           # Vercel function: GET/POST leaderboard, stored in Vercel Blob
+api/_score.js           # shared validation + score rules (not exposed as an endpoint)
+package.json            # @vercel/blob dependency for the function
 data/heroes.json        # baked snapshot (local image paths)
 data/items.json         # baked snapshot (local image paths)
 data/sidequests.json    # curated challenge list

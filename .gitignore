@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Vercel CLI (vercel link / vercel env pull)
+.vercel/
+.env*.local

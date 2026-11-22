@@ -56,6 +56,34 @@
     ]
   },
   {
+    "id": 88,
+    "name": "Baba",
+    "icon": "assets/heroes/88.webp",
+    "background": "assets/heroes/88-bg.webp",
+    "abilities": [
+      {
+        "name": "Threadsap",
+        "image": "assets/abilities/threadsap.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Granny Long Legs",
+        "image": "assets/abilities/strafing_run.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Baba's Brew",
+        "image": "assets/abilities/teapot_brew.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Feed The Birds",
+        "image": "assets/abilities/pigeon_launcher.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
     "id": 15,
     "name": "Bebop",
     "icon": "assets/heroes/15.webp",
@@ -163,6 +191,34 @@
       {
         "name": "Shining Wonder",
         "image": "assets/abilities/unicorn_orb.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Deadman Danny",
+    "icon": "assets/heroes/78.webp",
+    "background": "assets/heroes/78-bg.webp",
+    "abilities": [
+      {
+        "name": "Strix Salvo",
+        "image": "assets/abilities/deadpack_salvo.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Chimera Mk1",
+        "image": "assets/abilities/deadpack_chimera.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Jettison Fuel",
+        "image": "assets/abilities/deadpack_thermalmass.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Close The Deal",
+        "image": "assets/abilities/deadpack_flight.webp",
         "ultimate": true
       }
     ]
@@ -588,6 +644,34 @@
     ]
   },
   {
+    "id": 87,
+    "name": "Nurse Harrow",
+    "icon": "assets/heroes/87.webp",
+    "background": "assets/heroes/87-bg.webp",
+    "abilities": [
+      {
+        "name": "Leech Therapy",
+        "image": "assets/abilities/leech.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Wretched Vapors",
+        "image": "assets/abilities/nurse_vapors.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Healing Needles",
+        "image": "assets/abilities/needle.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Lurking Terrors",
+        "image": "assets/abilities/medicine_bag.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
     "id": 67,
     "name": "Paige",
     "icon": "assets/heroes/67.webp",
@@ -667,6 +751,34 @@
       {
         "name": "Affliction",
         "image": "assets/abilities/synth_affliction.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Rat King",
+    "icon": "assets/heroes/84.webp",
+    "background": "assets/heroes/84-bg.webp",
+    "abilities": [
+      {
+        "name": "Scrap Grenade",
+        "image": "assets/abilities/ratking_grenade.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rat Swarm",
+        "image": "assets/abilities/ratking_swarm.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Royal Pestments",
+        "image": "assets/abilities/ratking_shield.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rule, Ratannia!",
+        "image": "assets/abilities/ratking_flag.webp",
         "ultimate": true
       }
     ]
@@ -812,6 +924,34 @@
     ]
   },
   {
+    "id": 85,
+    "name": "Solomon",
+    "icon": "assets/heroes/85.webp",
+    "background": "assets/heroes/85-bg.webp",
+    "abilities": [
+      {
+        "name": "Setup Bishop",
+        "image": "assets/abilities/chessmaster_bishop.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Kingside Knight",
+        "image": "assets/abilities/chessmaster_knight.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Rook Battery",
+        "image": "assets/abilities/chessmaster_rook.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Develop Queen",
+        "image": "assets/abilities/chessmaster_queen.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
     "id": 69,
     "name": "The Doorman",
     "icon": "assets/heroes/69.webp",
@@ -919,6 +1059,34 @@
       {
         "name": "Assassinate",
         "image": "assets/abilities/hornet_assassinate.webp",
+        "ultimate": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Violet",
+    "icon": "assets/heroes/86.webp",
+    "background": "assets/heroes/86-bg.webp",
+    "abilities": [
+      {
+        "name": "Living Ink",
+        "image": "assets/abilities/artist_livingink.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Flow State",
+        "image": "assets/abilities/artist_brush.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Still Life",
+        "image": "assets/abilities/artist_portrait.webp",
+        "ultimate": false
+      },
+      {
+        "name": "Abstract Landscape",
+        "image": "assets/abilities/artist_landscape.webp",
         "ultimate": true
       }
     ]
