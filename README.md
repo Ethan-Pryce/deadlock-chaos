@@ -136,6 +136,9 @@ re-download (e.g. after a visual update), delete the `assets/` folder first.
 
 ```
 index.html              # markup
+favicon.svg             # site icon (roulette wheel with an eye hub)
+favicon-32.png          # PNG fallback icon
+apple-touch-icon.png    # 180px home-screen icon
 css/styles.css          # theme + layout + animations
 js/app.js               # data loading, roll logic, rendering
 js/leaderboard.js       # score card + leaderboard UI (talks to api/scores.js)
